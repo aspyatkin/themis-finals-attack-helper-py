@@ -58,7 +58,7 @@ class Helper(object):
         try:
             r = requests.post(self.submit_url, json=payload)
             if r.status_code == 200:
-                return map(lambda x: Result(x), r.json())
+                return list(map(lambda x: Result(x), r.json()))
 
             if r.status_code == 400:
                 code = Result(r.json())
