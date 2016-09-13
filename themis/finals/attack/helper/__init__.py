@@ -84,7 +84,7 @@ def format_result(flags, results):
     s = []
     for ndx, flag in enumerate(flags):
         if ndx < len(results):
-            s.append('{0}  {1}'.format(flag, results[0]))
+            s.append('{0}  {1}'.format(flag, results[ndx]))
     return '\n'.join(s)
 
 
