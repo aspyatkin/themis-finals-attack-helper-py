@@ -11,7 +11,7 @@ $ pip install themis.finals.attack.helper
 ```
 $ THEMIS_FINALS_HOST=10.0.0.2 themis-finals-attack 035585b41e6bbd70834a05690d2575ad=
 ```
-**Note:** 10.0.0.2 stands for and IP address of contest checking system.
+**Note:** 10.0.0.2 stands for an IP address of contest checking system. You may specify FQDN as well.
 
 You can pass several flags at once. Please be aware of flag submitting restrictions (see [Themis Attack Protocol](https://github.com/aspyatkin/themis-attack-protocol) for additional information).
 
