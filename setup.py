@@ -18,13 +18,13 @@ setup(
     description='Themis Finals attack helper library',
     author='Alexander Pyatkin',
     author_email='aspyatkin@gmail.com',
-    url='https://github.com/aspyatkin/themis-finals-attack-helper-py',
+    url='https://github.com/themis-project/themis-finals-attack-helper-py',
     license='MIT',
     packages=find_packages('.'),
     install_requires=[
-        'setuptools>=0.8',
+        'setuptools>=35.0.0',
         'requests>=2.11.1',
-        'themis.finals.attack.result>=1.0.0,<1.1.0'
+        'themis.finals.attack.result>=1.2.0,<1.3.0'
     ],
     namespace_packages=[
         'themis',
