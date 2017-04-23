@@ -24,7 +24,7 @@ setup(
     install_requires=[
         'setuptools>=35.0.0',
         'requests>=2.11.1',
-        'themis.finals.attack.result>=1.2.0,<1.3.0'
+        'themis.finals.attack.result>=1.3.0,<1.4.0'
     ],
     namespace_packages=[
         'themis',
