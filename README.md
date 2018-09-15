@@ -1,6 +1,9 @@
 # themis-finals-attack-helper-py
 [Themis Finals](https://github.com/aspyatkin/themis-finals) attack helper library.
 
+## DEPRECATION NOTICE
+This library is going to be gradually replaced by [themis-finals-py](https://github.com/themis-project/themis-finals-py).
+
 ## Installation
 ```
 $ pip install themis.finals.attack.helper
